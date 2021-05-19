@@ -93,7 +93,7 @@ namespace Banco
         {
             if (env.IsDevelopment())
             { 
-                app.UseDeveloperExceptionPage();
+                app.UseDeveloperExceptionPage(); 
             }
 
             app.UseCors(op => op.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
