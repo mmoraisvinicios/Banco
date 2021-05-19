@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Banco\Banco\Banco.csproj" />
+    <ProjectReference Include="..\..\src\Banco\Banco.UI.csproj" />
   </ItemGroup>
 
 </Project>

@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>Banco.UI</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
@@ -12,9 +13,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\CrossCutting\CrossCutting.csproj" />
-    <ProjectReference Include="..\src\Domain\Domain.csproj" />
-    <ProjectReference Include="..\src\Infra\Infra.csproj" />
+    <ProjectReference Include="..\CrossCutting\CrossCutting.csproj" />
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+    <ProjectReference Include="..\Infra\Infra.csproj" />
   </ItemGroup>
 
 
