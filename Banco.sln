@@ -7,15 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Banco", "Banco\Banco.csproj
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C6795713-A230-4EF2-80B0-716DA9705BFD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "..\Domain\Domain.csproj", "{BA6560DA-43A1-441D-AD22-A49DD1483D48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "..\Banco\src\Domain\Domain.csproj", "{BA6560DA-43A1-441D-AD22-A49DD1483D48}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infra", "..\Infra\Infra.csproj", "{356E52A5-D9BE-4A38-8E26-28E723F677C2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infra", "..\Banco\src\Infra\Infra.csproj", "{356E52A5-D9BE-4A38-8E26-28E723F677C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossCutting", "..\CrossCutting\CrossCutting.csproj", "{0F7A2466-4D97-4036-8371-3C8D5CB9E9B1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrossCutting", "..\Banco\src\CrossCutting\CrossCutting.csproj", "{0F7A2466-4D97-4036-8371-3C8D5CB9E9B1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "teste", "teste", "{7619A4A7-4168-4083-88B4-0545F6E0A688}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteUnitario", "..\test\TesteUnitario\TesteUnitario.csproj", "{D4EAA3B7-5EEC-4330-846A-DFADC25E3DD4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteUnitario", "..\Banco\test\TesteUnitario\TesteUnitario.csproj", "{D4EAA3B7-5EEC-4330-846A-DFADC25E3DD4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
